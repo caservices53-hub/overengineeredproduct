@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Overengineered — Systems-first software studio</title>
+<meta name="description" content="A systems-first software studio. We design the whole system, then build every layer of it: enterprise platforms, LLM integration, web and mobile applications.">
+<meta name="theme-color" content="#0C0C12">
+<link rel="canonical" href="https://overengineeredproducts.com/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Overengineered">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Overengineered — We design the whole system first.">
+<meta property="og:description" content="A systems-first software studio. We design the whole system, then build every layer of it: enterprise platforms, LLM integration, web and mobile applications.">
+<meta property="og:url" content="https://overengineeredproducts.com/">
+<meta property="og:image" content="https://overengineeredproducts.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Overengineered — We design the whole system first.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Overengineered — We design the whole system first.">
+<meta name="twitter:description" content="A systems-first software studio. We design the whole system, then build every layer of it: enterprise platforms, LLM integration, web and mobile applications.">
+<meta name="twitter:image" content="https://overengineeredproducts.com/assets/img/og-image.png">
+
+<link rel="preload" href="assets/fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/schibsted-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Overengineered Products",
+  "alternateName": "Overengineered",
+  "slogan": "We design the whole system first.",
+  "description": "A systems-first software studio. Enterprise platforms, LLM integration, and web and mobile applications, designed end to end.",
+  "url": "https://overengineeredproducts.com/",
+  "logo": "https://overengineeredproducts.com/assets/img/apple-touch-icon.png",
+  "image": "https://overengineeredproducts.com/assets/img/og-image.png",
+  "email": "info@overengineeredproducts.com",
+  "areaServed": "Worldwide",
+  "founder": [
+    {"@type": "Person", "name": "Murtaza Kagdi", "jobTitle": "Director"},
+    {"@type": "Person", "name": "Aziz Kharva", "jobTitle": "Director, Engineering"}
+  ],
+  "knowsAbout": ["System design", "Distributed systems", "LLM engineering", "Web applications", "Mobile applications", "E-commerce", "Cloud infrastructure"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ OPENING SEQUENCE ============ -->
+<div class="intro s-ink" role="status" aria-label="Loading">
+  <div class="intro__in">
+    <span class="logo logo--intro">
+      <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <line class="reg cross" x1="20" y1="0" x2="20" y2="40"/>
+        <line class="reg cross" x1="0" y1="20" x2="40" y2="20"/>
+        <rect class="reg box" x="7" y="7" width="26" height="26"/>
+        <path class="reg tick" d="M1 17.5v5"/><path class="reg tick" d="M39 17.5v5"/>
+        <path class="reg tick" d="M17.5 1h5"/><path class="reg tick" d="M17.5 39h5"/>
+        <circle class="dot" cx="20" cy="20" r="5.5"/>
+      </svg>
+      <span class="logo__word">Overengineered</span>
+    </span>
+    <span class="intro__bar" aria-hidden="true"><i></i></span>
+  </div>
+</div>
+
+<div class="prog" aria-hidden="true"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav">
+  <a class="logo logo--intro" href="index.html" aria-label="Overengineered — home">
+    <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+      <line class="reg cross" x1="20" y1="0" x2="20" y2="40"/>
+      <line class="reg cross" x1="0" y1="20" x2="40" y2="20"/>
+      <rect class="reg box" x="7" y="7" width="26" height="26"/>
+      <path class="reg tick" d="M1 17.5v5"/><path class="reg tick" d="M39 17.5v5"/>
+      <path class="reg tick" d="M17.5 1h5"/><path class="reg tick" d="M17.5 39h5"/>
+      <circle class="dot" cx="20" cy="20" r="5.5"/>
+    </svg>
+    <span class="logo__word">Overengineered</span>
+  </a>
+
+  <nav class="nav__links" aria-label="Primary">
+    <a href="index.html#approach">Approach</a>
+    <a href="index.html#capabilities">Capabilities</a>
+    <a href="work.html">Work</a>
+    <a href="index.html#stack">Technology</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="nav__right">
+    <button class="kbtn" type="button" data-palette aria-label="Open the command palette">Search <kbd>&#8984;K</kbd></button>
+    <a class="btn" href="contact.html" data-magnet>Start a project <span class="arw" aria-hidden="true">&#8594;</span></a>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet"><i></i></button>
+  </div>
+</header>
+
+<div class="sheet s-ink" id="sheet">
+  <a href="index.html#approach">Approach <i style="--c:var(--g-mint)"></i></a>
+  <a href="index.html#capabilities">Capabilities <i style="--c:var(--g-butter)"></i></a>
+  <a href="work.html">Work <i style="--c:var(--g-sky)"></i></a>
+  <a href="index.html#stack">Technology <i style="--c:var(--g-lilac)"></i></a>
+  <a href="index.html#estimator">Scope estimator <i style="--c:var(--g-mint)"></i></a>
+  <a href="contact.html">Contact <i style="--c:var(--g-peach)"></i></a>
+  <a class="btn btn--lg" href="contact.html">Start a project <span class="arw" aria-hidden="true">&#8594;</span></a>
+</div>
+
+<!-- ============ COMMAND PALETTE ============ -->
+<div class="pal s-ink" aria-hidden="true">
+  <div class="pal__box" role="dialog" aria-modal="true" aria-label="Command palette" style="background:#14141C">
+    <div class="pal__in">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="M13.5 13.5 18 18"/></svg>
+      <label class="sr" for="pal-q">Search pages, sections and actions</label>
+      <input id="pal-q" type="text" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="pal-list" placeholder="Jump to a page, section or action&hellip;">
+    </div>
+    <ul class="pal__list" id="pal-list" role="listbox" aria-label="Results"></ul>
+    <div class="pal__foot"><span>&#8593;&#8595; Navigate</span><span>&#8629; Open</span><span>Esc Close</span></div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero s-ink">
+  <div class="glow glow--a" aria-hidden="true"></div>
+  <div class="glow glow--b" aria-hidden="true"></div>
+  <div class="glow glow--c" aria-hidden="true"></div>
+  <div class="gridlines" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <span class="status"><b></b> Booking engagements for Q1 2027</span>
+
+    <h1 class="hero__h1" data-split data-split-delay="0.15" data-split-step="0.07">
+      We design the <em class="spec">whole system</em> first.
+    </h1>
+
+    <div class="hero__row">
+      <p class="lead">
+        Then we build every layer of it — enterprise platforms, LLM integrations, web and mobile
+        applications. We take on the work other studios find too hard to deliver, and we engineer
+        it to last.
+      </p>
+      <div class="hero__acts">
+        <a class="btn btn--lg" href="contact.html" data-magnet>Start a project <span class="arw" aria-hidden="true">&#8594;</span></a>
+        <a class="btn btn--ghost btn--lg" href="work.html">See the work</a>
+      </div>
+    </div>
+
+    <!-- The architecture, as the hero image -->
+    <figure class="syscv">
+      <figcaption class="syscv__bar"><span>system.blueprint</span><span>Designed before a single screen is drawn</span></figcaption>
+      <div class="syscv__body">
+
+        <svg class="sys sys-wide" viewBox="0 0 1200 440" role="img" aria-labelledby="sysT sysD">
+          <title id="sysT">A system architecture, designed end to end</title>
+          <desc id="sysD">Four layers connected left to right: surfaces (web application, iOS and Android, admin console), the edge (edge network and API gateway), services (identity and access, core services, event bus), and data and intelligence (PostgreSQL, vector store, LLM orchestration). A platform band of CI/CD, observability, backups and security runs underneath all of them.</desc>
+          <defs>
+            <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+
+          <text class="lyr" x="30"  y="44">SURFACES</text>
+          <text class="lyr" x="335" y="44">EDGE</text>
+          <text class="lyr" x="640" y="44">SERVICES</text>
+          <text class="lyr" x="945" y="44">DATA &amp; INTELLIGENCE</text>
+
+          <!-- edges -->
+          <path id="e1"  class="e" d="M255 99 C 295 99, 295 144, 335 144"/>
+          <path id="e2"  class="e" d="M255 189 C 295 189, 295 234, 335 234"/>
+          <path id="e3"  class="e" d="M255 279 C 295 279, 295 234, 335 234"/>
+          <path id="e4"  class="e" d="M447 173 L447 205"/>
+          <path id="e5"  class="e" d="M560 234 C 600 234, 600 99, 640 99"/>
+          <path id="e6"  class="e" d="M560 234 C 600 234, 600 189, 640 189"/>
+          <path id="e7"  class="e" d="M560 234 C 600 234, 600 279, 640 279"/>
+          <path id="e8"  class="e" d="M865 189 C 905 189, 905 99, 945 99"/>
+          <path id="e9"  class="e" d="M865 189 L945 189"/>
+          <path id="e10" class="e" d="M865 279 L945 279"/>
+          <path id="e11" class="e" d="M1057 218 L1057 250"/>
+
+          <!-- nodes -->
+          <g class="n" style="transition-delay:.55s"><rect x="30" y="70" width="225" height="58" rx="12"/><circle cx="52" cy="99" r="5" fill="#9CCBFF" filter="url(#glow)"/><text class="lb" x="68" y="96">Web application</text><text class="sb" x="68" y="113">Next.js · Angular</text></g>
+          <g class="n" style="transition-delay:.62s"><rect x="30" y="160" width="225" height="58" rx="12"/><circle cx="52" cy="189" r="5" fill="#F6A6C3" filter="url(#glow)"/><text class="lb" x="68" y="186">iOS &amp; Android</text><text class="sb" x="68" y="203">Swift · Kotlin</text></g>
+          <g class="n" style="transition-delay:.69s"><rect x="30" y="250" width="225" height="58" rx="12"/><circle cx="52" cy="279" r="5" fill="#F5D97C" filter="url(#glow)"/><text class="lb" x="68" y="276">Admin console</text><text class="sb" x="68" y="293">Role-based access</text></g>
+
+          <g class="n" style="transition-delay:.78s"><rect x="335" y="115" width="225" height="58" rx="12"/><circle cx="357" cy="144" r="5" fill="#BBA8FF" filter="url(#glow)"/><text class="lb" x="373" y="141">Edge network</text><text class="sb" x="373" y="158">CDN · WAF · cache</text></g>
+          <g class="n" style="transition-delay:.85s"><rect x="335" y="205" width="225" height="58" rx="12"/><circle cx="357" cy="234" r="5" fill="#BBA8FF" filter="url(#glow)"/><text class="lb" x="373" y="231">API gateway</text><text class="sb" x="373" y="248">GraphQL · REST</text></g>
+
+          <g class="n" style="transition-delay:.94s"><rect x="640" y="70" width="225" height="58" rx="12"/><circle cx="662" cy="99" r="5" fill="#8EE3BC" filter="url(#glow)"/><text class="lb" x="678" y="96">Identity &amp; access</text><text class="sb" x="678" y="113">OAuth · RBAC</text></g>
+          <g class="n" style="transition-delay:1.01s"><rect x="640" y="160" width="225" height="58" rx="12"/><circle cx="662" cy="189" r="5" fill="#8EE3BC" filter="url(#glow)"/><text class="lb" x="678" y="186">Core services</text><text class="sb" x="678" y="203">Node.js · Go</text></g>
+          <g class="n" style="transition-delay:1.08s"><rect x="640" y="250" width="225" height="58" rx="12"/><circle cx="662" cy="279" r="5" fill="#8EE3BC" filter="url(#glow)"/><text class="lb" x="678" y="276">Event bus</text><text class="sb" x="678" y="293">Kafka · queues</text></g>
+
+          <g class="n" style="transition-delay:1.17s"><rect x="945" y="70" width="225" height="58" rx="12"/><circle cx="967" cy="99" r="5" fill="#FFB894" filter="url(#glow)"/><text class="lb" x="983" y="96">PostgreSQL</text><text class="sb" x="983" y="113">Source of truth</text></g>
+          <g class="n" style="transition-delay:1.24s"><rect x="945" y="160" width="225" height="58" rx="12"/><circle cx="967" cy="189" r="5" fill="#FFB894" filter="url(#glow)"/><text class="lb" x="983" y="186">Vector store</text><text class="sb" x="983" y="203">Retrieval · pgvector</text></g>
+          <g class="n" style="transition-delay:1.31s"><rect x="945" y="250" width="225" height="58" rx="12"/><circle cx="967" cy="279" r="5" fill="#BBA8FF" filter="url(#glow)"/><text class="lb" x="983" y="276">LLM orchestration</text><text class="sb" x="983" y="293">Evals · guardrails</text></g>
+
+          <g class="band"><rect x="30" y="350" width="1140" height="62" rx="12"/><text x="600" y="386" text-anchor="middle">PLATFORM — CI/CD · OBSERVABILITY · BACKUPS · SECURITY · INFRASTRUCTURE AS CODE</text></g>
+
+          <!-- requests in flight -->
+          <circle class="pk" r="3.4" fill="#9CCBFF"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"><mpath href="#e1"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#F6A6C3"><animateMotion dur="2.8s" repeatCount="indefinite" begin=".6s"><mpath href="#e2"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#BBA8FF"><animateMotion dur="2.2s" repeatCount="indefinite" begin=".3s"><mpath href="#e6"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#8EE3BC"><animateMotion dur="2.6s" repeatCount="indefinite" begin="1.1s"><mpath href="#e5"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#FFB894"><animateMotion dur="2.5s" repeatCount="indefinite" begin=".9s"><mpath href="#e8"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#BBA8FF"><animateMotion dur="3s" repeatCount="indefinite" begin="1.6s"><mpath href="#e9"/></animateMotion></circle>
+          <circle class="pk" r="3.4" fill="#8EE3BC"><animateMotion dur="2.7s" repeatCount="indefinite" begin="1.3s"><mpath href="#e7"/></animateMotion></circle>
+        </svg>
+
+        <svg class="sys sys-tall" viewBox="0 0 360 476" role="img" aria-labelledby="sysT2">
+          <title id="sysT2">A system architecture, designed end to end, shown as four layers with a platform band underneath</title>
+          <text class="lyr" x="10" y="22">SURFACES</text>
+          <text class="lyr" x="10" y="118">EDGE</text>
+          <text class="lyr" x="10" y="214">SERVICES</text>
+          <text class="lyr" x="10" y="310">DATA &amp; AI</text>
+          <path class="e" d="M62 78 L62 104 L97 104 L97 130"/><path class="e" d="M180 78 L180 130"/><path class="e" d="M298 78 L298 104 L270 104 L270 130"/>
+          <path class="e" d="M97 174 L62 226"/><path class="e" d="M180 174 L180 226"/><path class="e" d="M270 174 L298 226"/>
+          <path class="e" d="M62 270 L62 322"/><path class="e" d="M180 270 L180 322"/><path class="e" d="M298 270 L298 322"/>
+          <g class="n"><rect x="10" y="34" width="104" height="44" rx="10"/><text class="lb" x="62" y="61" text-anchor="middle">Web</text></g>
+          <g class="n"><rect x="128" y="34" width="104" height="44" rx="10"/><text class="lb" x="180" y="61" text-anchor="middle">Mobile</text></g>
+          <g class="n"><rect x="246" y="34" width="104" height="44" rx="10"/><text class="lb" x="298" y="61" text-anchor="middle">Admin</text></g>
+          <g class="n"><rect x="10" y="130" width="165" height="44" rx="10"/><text class="lb" x="92" y="157" text-anchor="middle">Edge network</text></g>
+          <g class="n"><rect x="185" y="130" width="165" height="44" rx="10"/><text class="lb" x="267" y="157" text-anchor="middle">API gateway</text></g>
+          <g class="n"><rect x="10" y="226" width="104" height="44" rx="10"/><text class="lb" x="62" y="253" text-anchor="middle">Identity</text></g>
+          <g class="n"><rect x="128" y="226" width="104" height="44" rx="10"/><text class="lb" x="180" y="253" text-anchor="middle">Core</text></g>
+          <g class="n"><rect x="246" y="226" width="104" height="44" rx="10"/><text class="lb" x="298" y="253" text-anchor="middle">Events</text></g>
+          <g class="n"><rect x="10" y="322" width="104" height="44" rx="10"/><text class="lb" x="62" y="349" text-anchor="middle">Postgres</text></g>
+          <g class="n"><rect x="128" y="322" width="104" height="44" rx="10"/><text class="lb" x="180" y="349" text-anchor="middle">Vectors</text></g>
+          <g class="n"><rect x="246" y="322" width="104" height="44" rx="10"/><text class="lb" x="298" y="349" text-anchor="middle">LLM</text></g>
+          <g class="band"><rect x="10" y="400" width="340" height="56" rx="10"/><text x="180" y="432" text-anchor="middle">PLATFORM · CI/CD · OBSERVABILITY</text></g>
+        </svg>
+      </div>
+
+      <div class="syscv__chips" aria-hidden="true">
+        <span class="chip"><i style="--c:var(--g-mint)"></i>Typed contracts</span>
+        <span class="chip"><i style="--c:var(--g-lilac)"></i>Event-driven</span>
+        <span class="chip"><i style="--c:var(--g-peach)"></i>Zero-downtime deploys</span>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="section s-paper">
+  <div class="wrap">
+    <div class="stmt">
+      <h2 class="stmt__big rv" data-split data-split-step="0.03">
+        Most studios start with screens. <em>We start with the system</em> — <span class="dim">and take on the work others decline.</span>
+      </h2>
+      <p class="lead rv rv-d2">
+        Money that must reconcile. Permissions that must never leak. Integrations with systems nobody
+        documented. Models that must behave the same on Tuesday as they did in the demo. That is the
+        work we are built for.
+      </p>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar rv" style="--c:var(--mint)">
+        <span class="pillar__k"><i></i>Designed whole</span>
+        <h3>Architecture before anything else</h3>
+        <p>Data model, service boundaries, contracts, security and failure modes are designed before a single screen is drawn.</p>
+      </div>
+      <div class="pillar rv rv-d1" style="--c:var(--peach)">
+        <span class="pillar__k"><i></i>Built for the hard cases</span>
+        <h3>The risky parts go first</h3>
+        <p>Concurrency, payments, permissions, legacy integrations and AI behaviour are proven early, while changing course is still cheap.</p>
+      </div>
+      <div class="pillar rv rv-d2" style="--c:var(--lilac)">
+        <span class="pillar__k"><i></i>Delivered end to end</span>
+        <h3>One team, every layer</h3>
+        <p>From architecture to the app stores, by the same people. Nothing is subcontracted and nothing is lost in a handover.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SYSTEMS FIRST — STORY ============ -->
+<section class="section s-ink" id="approach">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--mint)">Systems first</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">Four movements, in <em>this order</em>, every time.</h2>
+      </div>
+      <p class="lead rv rv-d2">The order is the method. Each movement ends in something you can review, and none begins until the one before it is sound.</p>
+    </div>
+
+    <div class="story">
+      <div class="story__vis">
+        <div class="story__frame">
+          <p class="story__tag" aria-hidden="true">System <b data-story-label>Blueprint</b></p>
+          <svg class="sv" data-step="1" viewBox="0 0 520 520" role="img" aria-labelledby="svT">
+            <title id="svT">A system assembling in four stages: blueprint, proven core, user-facing surfaces, and live operation.</title>
+
+            <!-- 1 · blueprint -->
+            <g class="L L1">
+              <path class="bpl" d="M260 225 V150 H200"/><path class="bpl" d="M260 225 V150 H320"/>
+              <path class="bpl" d="M260 295 V370 H200"/><path class="bpl" d="M260 295 V370 H320"/>
+              <rect class="bp" x="195" y="225" width="130" height="70" rx="12"/>
+              <rect class="bp" x="80"  y="127" width="120" height="46" rx="10"/>
+              <rect class="bp" x="320" y="127" width="120" height="46" rx="10"/>
+              <rect class="bp" x="80"  y="347" width="120" height="46" rx="10"/>
+              <rect class="bp" x="320" y="347" width="120" height="46" rx="10"/>
+              <text class="t2" x="260" y="264" text-anchor="middle">CORE</text>
+              <text class="t2" x="140" y="154" text-anchor="middle">IDENTITY</text>
+              <text class="t2" x="380" y="154" text-anchor="middle">EVENTS</text>
+              <text class="t2" x="140" y="374" text-anchor="middle">DATA</text>
+              <text class="t2" x="380" y="374" text-anchor="middle">AI LAYER</text>
+            </g>
+
+            <!-- 2 · proven -->
+            <g class="L L2">
+              <rect x="195" y="225" width="130" height="70" rx="12" fill="#1B1B24" stroke="rgba(255,255,255,.34)"/>
+              <text class="t1" x="260" y="257" text-anchor="middle">Core services</text>
+              <text class="t2" x="260" y="274" text-anchor="middle">CONTRACTS SIGNED</text>
+              <rect x="80" y="127" width="120" height="46" rx="10" fill="#8EE3BC"/>
+              <text class="t1d" x="128" y="155" text-anchor="middle">Identity</text>
+              <path class="ok" d="M176 150 l4 4 l8 -9"/>
+              <rect x="80" y="347" width="120" height="46" rx="10" fill="#FFB894"/>
+              <text class="t1d" x="128" y="375" text-anchor="middle">Data</text>
+              <path class="ok" d="M176 370 l4 4 l8 -9"/>
+              <rect x="320" y="347" width="120" height="46" rx="10" fill="#BBA8FF"/>
+              <text class="t1d" x="368" y="375" text-anchor="middle">AI layer</text>
+              <path class="ok" d="M416 370 l4 4 l8 -9"/>
+              <rect x="320" y="127" width="120" height="46" rx="10" fill="#1B1B24" stroke="rgba(255,255,255,.34)"/>
+              <text class="t1" x="380" y="155" text-anchor="middle">Events</text>
+            </g>
+
+            <!-- 3 · surfaces -->
+            <g class="L L3">
+              <path d="M260 92 V225" stroke="rgba(255,255,255,.3)" fill="none"/>
+              <path d="M106 254 H195" stroke="rgba(255,255,255,.3)" fill="none"/>
+              <path d="M325 260 H446" stroke="rgba(255,255,255,.3)" fill="none"/>
+              <rect class="frm" x="200" y="26" width="120" height="66" rx="8"/>
+              <rect class="frm-l" x="200" y="26" width="120" height="12" rx="4"/>
+              <rect class="frm-l" x="210" y="48" width="60" height="7" rx="3"/>
+              <rect class="frm-l" x="210" y="62" width="100" height="20" rx="4"/>
+              <rect class="frm" x="24" y="222" width="82" height="64" rx="8"/>
+              <rect class="frm-l" x="24" y="222" width="22" height="64" rx="4"/>
+              <rect class="frm-l" x="54" y="234" width="44" height="7" rx="3"/>
+              <rect class="frm-l" x="54" y="248" width="44" height="28" rx="4"/>
+              <rect class="frm" x="446" y="214" width="50" height="92" rx="12"/>
+              <rect class="frm-l" x="456" y="232" width="30" height="6" rx="3"/>
+              <rect class="frm-l" x="456" y="244" width="30" height="22" rx="4"/>
+              <rect class="frm-l" x="456" y="272" width="30" height="6" rx="3"/>
+              <text class="t2" x="260" y="108" text-anchor="middle">WEB</text>
+              <text class="t2" x="65" y="302" text-anchor="middle">ADMIN</text>
+              <text class="t2" x="471" y="322" text-anchor="middle">MOBILE</text>
+            </g>
+
+            <!-- 4 · in service -->
+            <g class="L L4">
+              <circle class="ring" cx="260" cy="260" r="236"/>
+              <circle cx="260" cy="24" r="4" fill="#8EE3BC"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+              <circle cx="496" cy="260" r="4" fill="#9CCBFF"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+              <circle cx="24" cy="260" r="4" fill="#BBA8FF"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+              <rect x="190" y="420" width="140" height="58" rx="10" fill="rgba(12,12,18,.9)" stroke="rgba(255,255,255,.22)"/>
+              <text class="t2" x="202" y="438">OBSERVED</text>
+              <circle cx="316" cy="434" r="3.5" fill="#8EE3BC"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+              <polyline class="spark" points="202,466 216,460 228,463 240,452 252,456 264,446 276,450 290,440 304,444 318,436"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="story__steps">
+        <article class="step" data-step="1" style="--c:var(--g-sky)">
+          <p class="step__n"><i>01</i>Design the system</p>
+          <h3>The whole system, on paper, before any code</h3>
+          <p>Architecture, data model, service boundaries, contracts, security and the ways it can fail. Written down, reviewed with you, and agreed — so every later decision has something solid to stand on.</p>
+          <dl><dt>You receive</dt><dd>Architecture document</dd><dd>Data model</dd><dd>Fixed price and dated plan</dd></dl>
+        </article>
+        <article class="step" data-step="2" style="--c:var(--g-peach)">
+          <p class="step__n"><i>02</i>Prove the hard parts</p>
+          <h3>The riskiest parts are built first</h3>
+          <p>Permissions, money, consistency, the integration nobody documented, the model that has to behave. We spike them early and measure them, while changing course is still cheap.</p>
+          <dl><dt>You receive</dt><dd>Working proofs</dd><dd>Measured results</dd><dd>A risk register, closed out</dd></dl>
+        </article>
+        <article class="step" data-step="3" style="--c:var(--g-mint)">
+          <p class="step__n"><i>03</i>Build the surfaces</p>
+          <h3>Web, mobile and admin, on a core that already works</h3>
+          <p>Interfaces are designed and built on top of a system that has been proven, so they are fast to build and honest about what the system can do. A working preview every Friday.</p>
+          <dl><dt>You receive</dt><dd>Design system</dd><dd>Weekly preview builds</dd><dd>Written progress notes</dd></dl>
+        </article>
+        <article class="step" data-step="4" style="--c:var(--g-lilac)">
+          <p class="step__n"><i>04</i>Operate and evolve</p>
+          <h3>Launched, observed, and looked after</h3>
+          <p>Monitoring, alerting, backups and a performance budget enforced in the pipeline. Documentation and a proper handover — and the repository has been yours from the first commit.</p>
+          <dl><dt>You receive</dt><dd>Runbooks</dd><dd>Dashboards and alerts</dd><dd>30 days of fixes included</dd></dl>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAPABILITIES ============ -->
+<section class="section s-paper" id="capabilities">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--butter)">Capabilities</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">Every layer, <em>one team</em>.</h2>
+      </div>
+      <p class="lead rv rv-d2">The system comes first, so it leads the list. Everything else is built on top of it, by the same people who designed it.</p>
+    </div>
+
+    <div class="bento">
+      <article class="bc b-sys rv" style="--c:var(--mint)">
+        <div class="bc__top"><span class="bc__code">SYS</span><span class="bc__dot"></span></div>
+        <h3>System design and development</h3>
+        <p>Distributed services, event flows and data models for complex enterprise estates — the systems that must stay correct under load, across teams, and through years of changing requirements.</p>
+        <div class="bc__vis mv-sys" aria-hidden="true">
+          <svg viewBox="0 0 560 230" preserveAspectRatio="xMidYMid meet">
+            <path class="ml" d="M120 70 C160 70,160 115,200 115"/><path class="ml" d="M120 160 C160 160,160 115,200 115"/>
+            <path class="ml" d="M330 115 C360 115,360 60,390 60"/><path class="ml" d="M330 115 L390 115"/><path class="ml" d="M330 115 C360 115,360 170,390 170"/>
+            <rect class="mn" x="20" y="48" width="100" height="44" rx="9"/><text class="mt" x="70" y="75" text-anchor="middle">Clients</text>
+            <rect class="mn" x="20" y="138" width="100" height="44" rx="9"/><text class="mt" x="70" y="165" text-anchor="middle">Partners</text>
+            <rect class="mn" x="200" y="93" width="130" height="44" rx="9"/><text class="mt" x="265" y="120" text-anchor="middle">Gateway</text>
+            <rect class="mn" x="390" y="38" width="150" height="44" rx="9"/><text class="mt" x="465" y="65" text-anchor="middle">Services</text>
+            <rect class="mn" x="390" y="93" width="150" height="44" rx="9"/><text class="mt" x="465" y="120" text-anchor="middle">Event bus</text>
+            <rect class="mn" x="390" y="148" width="150" height="44" rx="9"/><text class="mt" x="465" y="175" text-anchor="middle">PostgreSQL</text>
+            <circle cx="390" cy="60" r="4" fill="#3FB27F"/><circle cx="390" cy="115" r="4" fill="#3FB27F"/><circle cx="390" cy="170" r="4" fill="#3FB27F"/>
+          </svg>
+        </div>
+        <ul><li>Distributed systems</li><li>Event-driven</li><li>Domain modelling</li><li>Microservices</li><li>PostgreSQL</li></ul>
+      </article>
+
+      <article class="bc b-llm rv rv-d1" style="--c:var(--lilac)">
+        <div class="bc__top"><span class="bc__code">LLM</span><span class="bc__dot"></span></div>
+        <h3>LLM engineering and integration</h3>
+        <p>Language models wired into your actual workflows rather than bolted on beside them, with evaluations and cost controls so a pilot that worked still works at scale.</p>
+        <div class="bc__vis mv-llm" aria-hidden="true">
+          <div class="q">What is our notice period for supplier contracts?</div>
+          <div class="a">Ninety days, unless the schedule states otherwise<sup>1</sup>. Two suppliers have thirty<sup>2</sup>.</div>
+          <div class="src"><span>1 · MSA §14.2</span><span>2 · Schedule C</span></div>
+          <div class="gate"><b>Draft notice prepared</b><span>Awaiting approval</span></div>
+        </div>
+        <ul><li>Retrieval</li><li>Agents</li><li>Evaluations</li><li>Guardrails</li></ul>
+      </article>
+
+      <article class="bc b-web rv" style="--c:var(--sky)">
+        <div class="bc__top"><span class="bc__code">WEB</span><span class="bc__dot"></span></div>
+        <h3>Web applications and sites</h3>
+        <p>Product applications and marketing estates, built by hand for speed and handed over with a content system your team can run.</p>
+        <div class="bc__vis mv-web" aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div><div class="h"></div><div class="h2"></div><div class="row"><i></i><i></i><i></i></div></div>
+      </article>
+
+      <article class="bc b-app rv rv-d1" style="--c:var(--blush)">
+        <div class="bc__top"><span class="bc__code">APP</span><span class="bc__dot"></span></div>
+        <h3>Mobile applications</h3>
+        <p>Native iOS and Android, or one codebase where that serves the product. Release pipelines in place before launch day.</p>
+        <div class="bc__vis mv-app" aria-hidden="true"><div class="ph"><i class="c"></i><i></i><i></i></div><div class="ph"><i></i><i class="c"></i><i></i><i></i></div><div class="ph"><i></i><i></i><i class="c"></i></div></div>
+      </article>
+
+      <article class="bc b-com rv rv-d2" style="--c:var(--peach)">
+        <div class="bc__top"><span class="bc__code">COM</span><span class="bc__dot"></span></div>
+        <h3>Commerce and marketplaces</h3>
+        <p>Storefronts and multi-vendor marketplaces with payments, tax and stock wired into the systems you already run.</p>
+        <div class="bc__vis mv-com" aria-hidden="true"><div class="it"><i></i><b></b></div><div class="it"><i></i><b></b></div><div class="pay"><span>CHECKOUT</span><span>&#8594;</span></div></div>
+      </article>
+
+      <article class="bc b-plt rv" style="--c:var(--butter)">
+        <div class="bc__top"><span class="bc__code">PLT</span><span class="bc__dot"></span></div>
+        <h3>Platforms, dashboards and internal tools</h3>
+        <p>The software that runs the organisation — operations consoles, reporting and admin, with role-based access and full audit trails.</p>
+        <div class="bc__vis mv-plt" aria-hidden="true"><i style="height:38%"></i><i style="height:56%"></i><i style="height:44%"></i><i style="height:70%"></i><i style="height:62%"></i><i style="height:84%"></i><i style="height:76%"></i><i style="height:92%"></i><i style="height:80%"></i><i style="height:96%"></i></div>
+      </article>
+
+      <article class="bc b-inf rv rv-d1" style="--c:var(--sky)">
+        <div class="bc__top"><span class="bc__code">INF</span><span class="bc__dot"></span></div>
+        <h3>Cloud, pipelines and performance</h3>
+        <p>Infrastructure as code, preview environments and a performance budget enforced in the pipeline — so speed is a gate, not a post-launch apology.</p>
+        <div class="bc__vis mv-inf" aria-hidden="true"><span><i></i>build</span><em>&#8594;</em><span><i></i>test</span><em>&#8594;</em><span><i></i>preview</span><em>&#8594;</em><span><i></i>deploy</span><em>&#8594;</em><span><i></i>observe</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SELECTED WORK ============ -->
+<section class="section s-ink" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--sky)">Selected work</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">Systems people <em>rely on</em>, every day.</h2>
+      </div>
+      <p class="lead rv rv-d2">A storefront for a family business and a platform for a firm billing in dollars are held to exactly the same engineering standard.</p>
+    </div>
+
+    <div class="cases" data-cases data-limit="2"></div>
+
+    <div style="margin-top:clamp(4rem,8vw,7rem);display:flex;justify-content:center">
+      <a class="btn btn--ghost btn--lg" href="work.html">All work <span class="arw" aria-hidden="true">&#8594;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECHNOLOGY ============ -->
+<section class="section s-paper" id="stack">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--lilac)">Technology</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">A premium stack, <em>chosen per system</em>.</h2>
+      </div>
+      <p class="lead rv rv-d2">We are fluent across the stack that serious engineering organisations run on, and we choose for the system you have — never for fashion.</p>
+    </div>
+
+    <div class="stack">
+      <div class="sg rv" style="--c:var(--sky)">
+        <div class="sg__hd"><h3><i></i>Front end</h3><span>07</span></div>
+        <ul><li>React</li><li>Angular</li><li>Next.js</li><li>Vue</li><li>Svelte</li><li>TypeScript</li><li>Tailwind CSS</li></ul>
+      </div>
+      <div class="sg rv rv-d1" style="--c:var(--blush)">
+        <div class="sg__hd"><h3><i></i>Mobile</h3><span>06</span></div>
+        <ul><li>Swift</li><li>SwiftUI</li><li>Kotlin</li><li>Jetpack Compose</li><li>React Native</li><li>Flutter</li></ul>
+      </div>
+      <div class="sg rv rv-d2" style="--c:var(--mint)">
+        <div class="sg__hd"><h3><i></i>Back end</h3><span>08</span></div>
+        <ul><li>Node.js</li><li>NestJS</li><li>Go</li><li>Python</li><li>Java &amp; Spring</li><li>.NET</li><li>GraphQL</li><li>gRPC</li></ul>
+      </div>
+      <div class="sg rv" style="--c:var(--peach)">
+        <div class="sg__hd"><h3><i></i>Data</h3><span>07</span></div>
+        <ul><li>PostgreSQL</li><li>Redis</li><li>Kafka</li><li>MongoDB</li><li>Elasticsearch</li><li>ClickHouse</li><li>BigQuery</li></ul>
+      </div>
+      <div class="sg rv rv-d1" style="--c:var(--lilac)">
+        <div class="sg__hd"><h3><i></i>AI and machine learning</h3><span>07</span></div>
+        <ul><li>OpenAI</li><li>Anthropic</li><li>LangGraph</li><li>pgvector</li><li>Pinecone</li><li>Hugging Face</li><li>PyTorch</li></ul>
+      </div>
+      <div class="sg rv rv-d2" style="--c:var(--butter)">
+        <div class="sg__hd"><h3><i></i>Cloud and platform</h3><span>09</span></div>
+        <ul><li>AWS</li><li>Google Cloud</li><li>Azure</li><li>Kubernetes</li><li>Terraform</li><li>Docker</li><li>GitHub Actions</li><li>Cloudflare</li><li>Vercel</li></ul>
+      </div>
+    </div>
+    <p class="stack-note">Product names are trademarks of their respective owners and are listed to describe the technologies we work with.</p>
+  </div>
+</section>
+
+<!-- ============ ESTIMATOR ============ -->
+<section class="section s-ink" id="estimator">
+  <div class="wrap est-wrap">
+    <div>
+      <p class="eyebrow" style="--c:var(--mint)">Scope estimator</p>
+      <h2 class="h-display rv" data-split data-split-step="0.04">Scope a system in <em>ten seconds</em>.</h2>
+      <p class="lead rv rv-d2" style="margin-top:1.4rem">Five questions, an instant calendar and team shape. No email required. A real figure follows discovery, in writing, and does not move afterwards.</p>
+    </div>
+
+    <div class="est rv rv-d1" data-est>
+      <div class="est__hd"><h3>Your system</h3><span>Instant · Private</span></div>
+      <div class="est__bd">
+        <fieldset class="est__row">
+          <legend>What are you building?</legend>
+          <div class="seg">
+            <input type="radio" name="est-type" id="t1" value="site"><label for="t1">Website</label>
+            <input type="radio" name="est-type" id="t2" value="commerce"><label for="t2">E-commerce</label>
+            <input type="radio" name="est-type" id="t3" value="app"><label for="t3">Mobile app</label>
+            <input type="radio" name="est-type" id="t4" value="platform" checked><label for="t4">Enterprise platform</label>
+          </div>
+        </fieldset>
+        <fieldset class="est__row">
+          <legend>Where must it run?</legend>
+          <div class="seg">
+            <input type="radio" name="est-reach" id="r1" value="web"><label for="r1">Web only</label>
+            <input type="radio" name="est-reach" id="r2" value="mobile"><label for="r2">iOS &amp; Android</label>
+            <input type="radio" name="est-reach" id="r3" value="both" checked><label for="r3">Web &amp; mobile</label>
+          </div>
+        </fieldset>
+        <fieldset class="est__row">
+          <legend>How deep does it go?</legend>
+          <div class="seg">
+            <input type="radio" name="est-depth" id="d1" value="lean"><label for="d1">Lean</label>
+            <input type="radio" name="est-depth" id="d2" value="standard" checked><label for="d2">Standard</label>
+            <input type="radio" name="est-depth" id="d3" value="complex"><label for="d3">Complex</label>
+          </div>
+        </fieldset>
+        <fieldset class="est__row">
+          <legend>Systems it must integrate with</legend>
+          <div class="seg">
+            <input type="radio" name="est-wires" id="w1" value="few"><label for="w1">0&ndash;2</label>
+            <input type="radio" name="est-wires" id="w2" value="some" checked><label for="w2">3&ndash;5</label>
+            <input type="radio" name="est-wires" id="w3" value="many"><label for="w3">6 or more</label>
+          </div>
+        </fieldset>
+        <fieldset class="est__row">
+          <legend>Role of AI</legend>
+          <div class="seg">
+            <input type="radio" name="est-ai" id="a1" value="none"><label for="a1">None</label>
+            <input type="radio" name="est-ai" id="a2" value="assist" checked><label for="a2">Assists users</label>
+            <input type="radio" name="est-ai" id="a3" value="core"><label for="a3">At the core</label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="est__out" aria-live="polite">
+        <p class="est__sum" data-est-sum></p>
+        <div class="est__nums"></div>
+        <div class="est__plan"></div>
+        <p class="est__note">Arithmetic over the shape of the brief, not a quotation — it has not seen your requirements. Treat it as a sanity check on the calendar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENGAGEMENT ============ -->
+<section class="section s-paper" id="engage">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--blush)">Engagement</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">Three ways to <em>work with us</em>.</h2>
+      </div>
+      <p class="lead rv rv-d2">Choose whichever fits how your procurement and your roadmap actually operate.</p>
+    </div>
+    <div class="eng-grid">
+      <article class="eng eng--lead rv">
+        <span class="eng__k">Most chosen</span>
+        <h3>Fixed-scope programme</h3>
+        <p>A defined system at a fixed price on a dated milestone plan, agreed after paid discovery.</p>
+        <ul><li>Architecture document and acceptance criteria</li><li>Invoiced against milestones</li><li>Revision rounds built into the price</li><li>Thirty days of fixes after launch</li></ul>
+      </article>
+      <article class="eng rv rv-d1">
+        <span class="eng__k">For in-house teams</span>
+        <h3>Embedded team</h3>
+        <p>Architects, designers and engineers inside your rituals, your board and your repository, billed monthly.</p>
+        <ul><li>Monthly rate, one month&rsquo;s notice</li><li>Hours that overlap your working day</li><li>Your tooling and your process</li><li>Direct access to both directors</li></ul>
+      </article>
+      <article class="eng rv rv-d2">
+        <span class="eng__k">After launch</span>
+        <h3>Care and evolution</h3>
+        <p>A monthly allocation for improvements, experiments, dependency upgrades and uptime.</p>
+        <ul><li>Agreed response times</li><li>Monitoring and security patching</li><li>Quarterly architecture review</li><li>Unused hours roll over one month</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEADERSHIP ============ -->
+<section class="section section--tight s-paper" id="leadership" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" style="--c:var(--peach)">Leadership</p>
+        <h2 class="h-display rv" data-split data-split-step="0.04">Two directors. <em>Directly accountable.</em></h2>
+      </div>
+      <p class="lead rv rv-d2">The people on your first call are the people answerable for the system — from the architecture document to the day it goes live.</p>
+    </div>
+    <div class="lead-grid">
+      <article class="person rv" style="--c:var(--peach)">
+        <span class="person__av" aria-hidden="true">MK</span>
+        <div><h3>Murtaza Kagdi</h3><span class="person__role">Director</span></div>
+      </article>
+      <article class="person rv rv-d1" style="--c:var(--sky)">
+        <span class="person__av" aria-hidden="true">AK</span>
+        <div><h3>Aziz Kharva</h3><span class="person__role">Director, Engineering</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section s-paper" id="faq" style="padding-top:0">
+  <div class="wrap faq-wrap">
+    <div>
+      <p class="eyebrow" style="--c:var(--butter)">Questions</p>
+      <h2 class="h-display rv" data-split data-split-step="0.04">What buyers ask <em>before</em> the first call.</h2>
+    </div>
+    <div class="faq">
+      <details class="rv" open>
+        <summary>Why design the whole system before building anything?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">Because the expensive mistakes are made in the first fortnight and discovered in the sixth month. Agreeing the data model, the boundaries between services and the ways the system can fail costs a few weeks. Unpicking them after launch costs a rewrite.</div>
+      </details>
+      <details class="rv">
+        <summary>How do you work across time zones?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">As a matter of routine. We keep a guaranteed overlap with your working day — whether you are in London, New York, Dubai or Singapore — and everything that matters is written down, so progress never waits on a call. Weekly previews and written notes mean you can review whenever suits you.</div>
+      </details>
+      <details class="rv">
+        <summary>Who owns the code, the designs and the infrastructure?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">You do, entirely, from the first commit. We work in your repository and your cloud accounts where possible. Source, design files, credentials and documentation are all yours, with no licence conditions and no obligation to keep us as host or maintainer.</div>
+      </details>
+      <details class="rv">
+        <summary>What does a programme cost, and how long does it take?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">A marketing site typically takes five to seven weeks; an enterprise platform, four to nine months, depending on integrations and the role of AI. The estimator above gives a rough calendar in ten seconds. You receive a fixed price in writing after paid discovery, before any build begins, so the figure cannot move on you mid-programme.</div>
+      </details>
+      <details class="rv">
+        <summary>Can you work alongside our in-house engineering team?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">Yes — that is what the embedded model is for. We join your rituals, your issue tracker and your branching strategy, and work to your review standards. We can also own a single workstream, such as the platform core or the AI layer, while your team keeps the rest.</div>
+      </details>
+      <details class="rv">
+        <summary>How do you handle NDAs, intellectual property and data protection?<i aria-hidden="true"></i></summary>
+        <div class="faq__a">We sign your NDA and master services agreement before discovery; we do not insist on our own paperwork. Intellectual property assigns to you on payment. For anything touching personal data we work to UK GDPR and EU GDPR principles: data minimisation, named sub-processors, and no production data on local machines.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="cta s-ink">
+  <div class="glow glow--a" aria-hidden="true"></div>
+  <div class="glow glow--b" aria-hidden="true"></div>
+  <div class="glow glow--c" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow" style="--c:var(--mint);margin:0">Next step</p>
+    <h2 class="rv" data-split data-split-step="0.06">Bring us the <em class="spec">hard one</em>.</h2>
+    <p class="rv rv-d1">Send a brief and you will hear from a director within one working day — including an honest no if we are not the right studio for it.</p>
+    <div class="cta__acts rv rv-d2">
+      <a class="btn btn--lg" href="contact.html" data-magnet>Start a project <span class="arw" aria-hidden="true">&#8594;</span></a>
+      <a class="btn btn--ghost btn--lg" href="mailto:info@overengineeredproducts.com">info@overengineeredproducts.com</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot s-ink">
+  <div class="wrap">
+    <div class="foot__top">
+      <div class="foot__about">
+        <a class="logo" href="index.html" aria-label="Overengineered — home">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+            <line class="reg cross" x1="20" y1="0" x2="20" y2="40"/>
+            <line class="reg cross" x1="0" y1="20" x2="40" y2="20"/>
+            <rect class="reg box" x="7" y="7" width="26" height="26"/>
+            <path class="reg tick" d="M1 17.5v5"/><path class="reg tick" d="M39 17.5v5"/>
+            <path class="reg tick" d="M17.5 1h5"/><path class="reg tick" d="M17.5 39h5"/>
+            <circle class="dot" cx="20" cy="20" r="5.5"/>
+          </svg>
+          <span class="logo__word">Overengineered</span>
+        </a>
+        <p>A systems-first software studio. We design the whole system, then build every layer of it — for organisations whose software is too important to get wrong.</p>
+        <button class="foot__share" type="button" data-share>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 10V2M5 5l3-3 3 3"/><path d="M3 8v5.5h10V8"/></svg>
+          Share this site
+        </button>
+      </div>
+
+      <div class="foot__col">
+        <h2>Capabilities</h2>
+        <ul>
+          <li><a href="index.html#capabilities">System design</a></li>
+          <li><a href="index.html#capabilities">LLM engineering</a></li>
+          <li><a href="index.html#capabilities">Web applications</a></li>
+          <li><a href="index.html#capabilities">Mobile applications</a></li>
+          <li><a href="index.html#capabilities">E-commerce</a></li>
+          <li><a href="index.html#capabilities">Cloud and DevOps</a></li>
+        </ul>
+      </div>
+
+      <div class="foot__col">
+        <h2>Studio</h2>
+        <ul>
+          <li><a href="index.html#approach">Approach</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="index.html#stack">Technology</a></li>
+          <li><a href="index.html#engage">Engagement models</a></li>
+          <li><a href="index.html#faq">Questions</a></li>
+        </ul>
+      </div>
+
+      <div class="foot__col">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="contact.html">Start a project</a></li>
+          <li><a href="mailto:info@overengineeredproducts.com">info@overengineeredproducts.com</a></li>
+          <li><a href="https://wa.me/917879896724" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <svg class="foot__wm" viewBox="0 0 1000 240" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <text x="500" y="186" text-anchor="middle">Overengineered</text>
+    </svg>
+
+    <div class="foot__bot">
+      <p>&copy; <span data-year>2026</span> Overengineered Products</p>
+      <p>Working with clients worldwide</p>
+      <a href="#main">Back to top &#8593;</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/motion.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

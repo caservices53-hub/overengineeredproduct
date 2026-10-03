@@ -1,0 +1,19 @@
+# Internal handover notes — not for the public repository
+NOTES.local.md
+
+# Vercel
+.vercel
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Dependencies (none today, but keep the door shut)
+node_modules/
+
+# Local helper scripts (publish-to-github.bat)
+*.bat

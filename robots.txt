@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://overengineeredproducts.com/sitemap.xml
